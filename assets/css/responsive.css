@@ -1,0 +1,63 @@
+/*PC*/
+@media (min-width:1024px){
+    #header .mobile-menu {
+        display:none;
+    }
+   
+}
+/*tablet*/
+
+
+    
+/* Mobile */
+
+@media (max-width:740px){
+    #nav li {
+        display:block;
+        
+    }
+    #header .search-button {
+        display:none;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav .subnav{
+        position:initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color:#333;
+        padding:1px 41px;
+        color:#fff;
+    }
+    #content .list-member{
+        width: 100%;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    .place .place-list{
+     
+        width:100%;
+        margin-top: 16px;
+    
+        
+    }
+    .col-contact-mobile{
+        width: 100%;
+        margin-top:9px; 
+    }
+    .buy {
+        width: 100%;
+    }
+    .form-control-submit {
+      
+        width: 100%;
+    }
+}
+@media (min-width:740px) and (max-width:1023px){
+    #header .mobile-menu {
+        display: none;
+    }
+}
